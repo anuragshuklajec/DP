@@ -8,6 +8,7 @@ def knapsack(wt,val,W,n):
         return knapsack(wt,val,W,n-1)
 
 
+
 wt = list(map(int,input().split()))
 val = list(map(int,input().split()))
 W = int(input())
